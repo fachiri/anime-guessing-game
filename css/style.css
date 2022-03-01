@@ -1,0 +1,74 @@
+.screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(97, 97, 97);
+}
+
+.carousel {
+    height: 100%;
+}
+
+.fixedItem {
+    outline: 1px solid blue;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000, 000, 000, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.fixedItem p {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.startBtn {
+    /* border-radius: 20px; */
+    margin-bottom: 20px;
+}
+
+.col.s4, .col.s8 {
+    min-height: 97vh;
+    display: flex;
+    align-items: center;
+}
+
+.col.s4 {
+    justify-content: center;
+    /* position: relative; */
+}
+
+.preloader-wrapper {
+    position: absolute;
+}
+
+.col.s8 {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.btnGroup {
+    /* outline: 1px solid red; */
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optionList {
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.optionList li {
+    margin: 15px;
+}
